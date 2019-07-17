@@ -1,0 +1,8 @@
+app-exoplanet-card {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+app-exoplanet-card:hover {
+  transform: translate(0, -3px);
+}

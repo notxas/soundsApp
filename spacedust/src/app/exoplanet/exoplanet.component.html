@@ -1,0 +1,41 @@
+<div class="columns">
+  <div class="column is-half">
+    <div class="card">
+      <div class="card-image">
+        <figure class="image is-3by2">
+          <img [src]="exoplanet.image" alt="{{ exoplanet.name }}">
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="column is-half">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">{{ exoplanet.name }}</p>
+      </header>
+      <div class="card-content">
+        <div class="field">
+          <small class="is-uppercase has-text-grey">Description</small>
+          <p>{{ exoplanet.description }}</p>
+        </div>
+        <div class="field">
+          <small class="is-uppercase has-text-grey">Year Discovered</small>
+          <p>{{ exoplanet.discoveryYear }}</p>
+        </div>
+        <div class="field">
+          <small class="is-uppercase has-text-grey">Radius</small>
+          <p>{{ exoplanet.radius }}</p>
+        </div>
+        <div class="field">
+          <small class="is-uppercase has-text-grey">Orbital Period</small>
+          <p>{{ exoplanet.orbitalPeriod }}</p>
+        </div>
+      </div>
+      <footer class="card-footer">
+        <a class="card-footer-item has-text-danger" (click)="deleteExoplanet()">Delete</a>
+      </footer>
+    </div>
+  </div>
+
+</div>

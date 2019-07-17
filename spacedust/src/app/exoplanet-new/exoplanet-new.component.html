@@ -1,0 +1,61 @@
+<div class="columns is-centered">
+  <div class="column is-6">
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">New Exoplanet</p>
+      </header>
+      <section class="card-content">
+        <form [formGroup]="exoplanetForm" method="post" (ngSubmit)="onSubmit()">
+          <div class="columns is-multiline">
+            <div class="column is-full">
+              <div class="field">
+                <input class="input" type="text" placeholder="Name" formControlName="name">
+                <small class="has-text-danger" *ngIf="exoplanetForm.get('name').hasError('required') && exoplanetForm.get('name').dirty">
+                  Name is required
+                </small>
+              </div>
+            </div>
+            <div class="column is-full">
+              <div class="field">
+                <textarea class="textarea" type="text" placeholder="Description" formControlName="description"></textarea>
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <input class="input" type="text" placeholder="Radius" formControlName="radius">
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <input class="input" type="text" placeholder="Orbital Period" formControlName="orbitalPeriod">
+              </div>
+            </div>
+            <div class="column is-half">
+              <div class="field">
+                <input class="input" type="text" placeholder="Year Discovered" formControlName="discoveryYear">
+                <small class="has-text-danger" *ngIf="exoplanetForm.get('discoveryYear').hasError('required') && exoplanetForm.get('discoveryYear').dirty">
+                  Discovery year is required
+                </small>
+              </div>
+            </div>
+            <div class="column is-full">
+              <label for="image" class="label has-text-grey">Exoplanet Image</label>
+              <div class="select">
+                <select name="image" id="image" formControlName="image">
+                  <option *ngFor="let image of exoplanetService.exoplanetImages" [ngValue]="image.path">Image {{ image.imageNum }}</option>
+                </select>
+              </div>
+            </div>
+            <div class="column is-full" *ngIf="exoplanetForm.value.image">
+              <img [src]="exoplanetForm.value.image" alt="preview-image">
+            </div>
+          </div>
+          <button class="button is-primary" type="submit" [ngClass]="{'is-loading': loginLoading}">
+            Submit
+          </button>
+        </form>
+      </section>
+    </div>
+
+  </div>
+</div>

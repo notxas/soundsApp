@@ -1,0 +1,81 @@
+[{
+    "name": "Kepler-951 b",
+    "description": "This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.",
+    "radius": "0.50±0.02",
+    "orbitalPeriod": "71.5253±0.0001",
+    "discoveryYear": "2016",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-1_q5x5w4.jpg"
+  },
+  {
+    "name": "BD-08 2823 c",
+    "description": "The star BD-82823 is a K-type main sequence star in the constellation Sextans. It has only one fifth of our Sun's luminosity.",
+    "radius": "N/A",
+    "orbitalPeriod": "237.6±1.5",
+    "discoveryYear": "2009",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-2_t6njgk.jpg"
+  },
+  {
+    "name": "Kepler-1638 b",
+    "description": "This planet was discovered by the NASA Kepler spacecraft and is part of the May 10th 2016 data release. Although not many details are known about this particular system yet, it has a very low probability of being a false positive.",
+    "radius": "0.17+0.03−0.02",
+    "orbitalPeriod": "259.337±0.013",
+    "discoveryYear": "2016",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-3_etmwvw.jpg"
+  },
+  {
+    "name": "PH-2 b",
+    "description": "The exoplanet PH-2 b was discovered by citizen scientists using an online tool at planethunters.org. The planet is a gas giant and could be located in the star's habitable zone. The system might also have a faint binary companion.",
+    "radius": "0.90±0.05",
+    "orbitalPeriod": "283edit",
+    "discoveryYear": "2013",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-4_t3hgzs.jpg"
+  },
+  {
+    "name": "XO-2N b",
+    "description": "The planet XO-2N b was the first planet discovered in the XO-2 binary. The host star is variable (Zellem et al. 2015) which complicates the analysis of the planetary properties. The stellar variability may be caused by starspots.",
+    "radius": "0.973",
+    "orbitalPeriod": "2.6159±0.0000",
+    "discoveryYear": "2007",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-5_eguksf.jpg"
+  },
+  {
+    "name": "EPIC 201465501 b",
+    "description": "K2-9b was discovered by the Kepler spacecraft during its extended K2 mission, Campaign 1. It receives approximately Earth-like insolation and has a radius intermediate between that of Earth and Neptune. The orbit most likely has a low eccentricity.",
+    "radius": "0.20+0.05−0.09",
+    "orbitalPeriod": "18.4498±0.0015",
+    "discoveryYear": "2015",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-6_bvxkvx.jpg"
+  },
+  {
+    "name": "HD 27442 A b",
+    "description": "Epsilon Reticuli is a binary star system in the constellation of Reticulum. The secondary is a white dwarf star. The primary, an orange subgiant, is host to a Jupiter mass planet.",
+    "radius": "N/A",
+    "orbitalPeriod": "415",
+    "discoveryYear": "2000",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-7_sfpgpj.jpg"
+  },
+  {
+    "name": "HAT-P-13 b",
+    "description": "The star HAT-P-13 is located in the constalltion Ursa Major and hosts at least two extrasolar planets. Only the inner planet is transiting. There might be an unconfirmed third planet in the system.",
+    "radius": "1.280",
+    "orbitalPeriod": "2.92",
+    "discoveryYear": "2009",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-8_b80xad.jpg"
+  },
+  {
+    "name": "Wolf 1061 c",
+    "description": "Wolf 1061 c is a planet with a minimum mass of 4.25 Earth masses located near the inner edge of its host star's habitable zone. It is the middle planet of a system of super-Earths located 14 light years from the solar system.",
+    "radius": "N/A",
+    "orbitalPeriod": "17.867±0.011",
+    "discoveryYear": "2015",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779675/planet-9_kd7fv6.jpg"
+  },
+  {
+    "name": "Ross 128 b",
+    "description": "Ross 128 b is a planet with a similar mass to the Earth located near the temperate zone of a nearby red dwarf star. It may be a candidate for being a habitable planet.",
+    "radius": "N/A",
+    "orbitalPeriod": "9.866±0.007",
+    "discoveryYear": "2017",
+    "image": "http://res.cloudinary.com/dkpz9r2q7/image/upload/v1527779676/planet-10_tkiv5n.jpg"
+  }
+]
